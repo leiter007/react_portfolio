@@ -3,15 +3,24 @@ import ReactDOM from "react-dom"
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
+import Projects from "./Projects"
+import About from "./About"
 import './css/tailwind.css';
+import { BrowserRouter } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
+
 
 const App = () => {
     return (
-        <div className="min-h-screen">
-            <div className="flex flex-col w-full fixed pin-l pin-y">
+        <div className="page-wrapper">
+            <div className="page-content">
                 <Header/>
-                <div className="px-4 pt-4 flex-1 overflow-y-scrol">
-                <Hello/>
+                <div className="content-wrapper">
+                    <Switch>
+                        <Route exact path='/' component={Hello}></Route>
+                        <Route exact path='/about' component={About}></Route>
+                        <Route exact path='/projects' component={Projects}></Route>
+                    </Switch>
                 </div>
                 <Footer/>
             </div>
@@ -19,4 +28,8 @@ const App = () => {
     )
 };
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render((
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+), document.getElementById("app"))
