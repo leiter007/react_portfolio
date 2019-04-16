@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
 import { UndrawDesigner } from "react-undraw-illustrations";
-import UndrawDashboard from "react-undraw-illustrations/lib/components/UndrawDashboard/UndrawDashboard";
+import { UndrawCreate } from "react-undraw-illustrations";
 
 class Projects extends Component {
     constructor() {
@@ -21,7 +21,6 @@ class Projects extends Component {
         })
     }
 
-
     render() {
         const projects = this.state.projects
         let projectsList
@@ -39,9 +38,9 @@ class Projects extends Component {
             <div className="content-wrapper">
                 <div className="flex mb-4">
                     <div className="w-1/4">
-                        <UndrawDashboard primaryColor='#12283a' height='200px'/>
+                        <UndrawCreate primaryColor='#20504f' height='200px'/>
                     </div>
-                    <div className="w-3/4">
+                    <div className="w-3/4 pl-8">
                         <h1>My Projects</h1>
                         <p>This is a selection of some of my projects I have been working on.</p>
                     </div>    

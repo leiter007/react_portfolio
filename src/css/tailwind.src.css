@@ -3,17 +3,18 @@
 @tailwind utilities;
 @tailwind screens;
 
+/** Page **/
 ..page-wrapper {
     @apply min-h-screen;
 }
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
+    @apply font-sans font-hairline text-grey-darker
 }
 
-
-
+/** Header **/
 .header {
-    @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+    @apply flex items-center justify-between flex-wrap bg-teal-darkest p-6;
 }
 .header-title {
     @apply text-white text-3xl;
@@ -31,7 +32,7 @@
 }
 
 
-
+/** Content section **/
 .content-wrapper {
     @apply px-4 pt-4 flex-1 overflow-y-scroll;
 }
@@ -45,7 +46,7 @@
     @apply text-grey-dark;
 }
 
-
+/** Links **/
 .main-link {
     @apply text-white no-underline;
 }
