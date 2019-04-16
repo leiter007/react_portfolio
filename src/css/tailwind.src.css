@@ -22,7 +22,7 @@
     @apply mr-6;
 }
 
-
+/** Footer **/
 .footer-wrapper {
     @apply border-t px-8 py-4;
 }
