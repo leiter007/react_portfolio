@@ -36,7 +36,10 @@
     @apply px-4 pt-4 flex-1 overflow-y-scroll;
 }
 .content-h1 {
-    @apply text-3xl font-semibold text-grey-dark;
+    @apply text-2xl font-semibold text-grey-dark;
+}
+.content-h3 {
+    @apply text-xl font-normal text-grey-dark;
 }
 .content-text {
     @apply text-grey-dark;
