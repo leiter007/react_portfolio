@@ -36,12 +36,12 @@ class Projects extends Component {
         }
         return (
             <div className="content-wrapper">
-                <div className="flex mb-4">
-                    <div className="w-1/4">
-                        <UndrawCreate primaryColor='#20504f' height='200px'/>
+                <div className="flex mb-10 border-b border-grey-light">
+                    <div className="w-1/6 -mr-2 pb-3" >
+                        <UndrawCreate primaryColor='#20504f' height='70px'/>
                     </div>
-                    <div className="w-3/4 pl-8">
-                        <h1>My Projects</h1>
+                    <div className="w-5/6">
+                        <h1 className="content-h1">My Projects</h1>
                         <p>This is a selection of some of my projects I have been working on.</p>
                     </div>    
                 </div>

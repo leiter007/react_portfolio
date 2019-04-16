@@ -9,7 +9,7 @@
 }
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
-    @apply font-sans font-hairline text-grey-darker
+    @apply font-sans font-hairline text-grey-dark
 }
 
 /** Header **/
@@ -37,7 +37,7 @@
     @apply px-4 pt-4 flex-1 overflow-y-scroll;
 }
 .content-h1 {
-    @apply text-2xl font-semibold text-grey-dark;
+    @apply text-3xl font-semibold text-grey-darkest pb-1;
 }
 .content-h3 {
     @apply text-xl font-normal text-grey-dark;

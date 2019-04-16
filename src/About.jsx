@@ -6,7 +6,7 @@ const About = () => {
         <div className="content-wrapper">
             <div className="flex flex-wrap mb-4">
                 <div className="w-full lg:w-1/4 md:w-1/2">
-                <UndrawDesigner primaryColor='#12283a' height='200px'/>
+                <UndrawDesigner primaryColor='#20504f' skinColor="#f3d3cd" hairColor="#b29a5e" height='200px'/>
                 </div>
             
                 <div className="w-full lg:w-3/4 md:w-1/2">
