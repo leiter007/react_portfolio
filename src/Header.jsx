@@ -5,11 +5,11 @@ const Header = () => {
     return (
         <nav className="header">
             <h1 className="header-title">
-            <Link className="text-white hover:text-grey no-underline" to='/'>My Portfolio</Link>
+            <Link className="main-link hover" to='/'>My Portfolio</Link>
             </h1>
-            <ul className="list-reset flex">
-                <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
-                <li className="mr-6"><NavLink className="text-white hover:text-grey no-underline" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
+            <ul className="ul-link">
+                <li className="header-li"><NavLink className="nav-link hover" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
+                <li className="header-li"><NavLink className="nav-link hover" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
             </ul>
         </nav>
     )
