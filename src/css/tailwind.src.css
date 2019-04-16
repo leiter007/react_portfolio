@@ -14,7 +14,7 @@
 
 /** Header **/
 .header {
-    @apply flex items-center justify-between flex-wrap bg-teal-darkest p-8;
+    @apply flex items-center justify-between flex-wrap bg-teal-darkest p-6;
 }
 .header-title {
     @apply text-white text-3xl;
@@ -26,10 +26,13 @@
 
 /** Content section **/
 .content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+    @apply px-6 pt-4 flex-1 overflow-y-scroll;
 }
 .content-h1 {
-    @apply text-3xl font-semibold text-grey-darkest pb-1;
+    @apply text-3xl font-semibold text-grey-darkest pb-3;
+}
+.content-h2 {
+    @apply text-5xl font-semibold text-grey-darkest pb-5 pt-2;
 }
 .content-h3 {
     @apply text-xl font-normal text-grey-dark;
