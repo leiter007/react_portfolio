@@ -12,7 +12,7 @@ const Contact = () => {
             
                 <div className="header-wrapper">
                 <h1 className="content-h1">Contact me</h1>
-                <p className="content-text">If you want to contact me, please send a message to me below - and please fill in your email so I can respond!</p>
+                <p className="content-text">If you want to contact me, please send a message to me below - and fill in your email so I can respond!</p>
             </div>
         </div>
 

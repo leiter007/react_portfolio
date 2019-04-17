@@ -40,7 +40,7 @@ class Skills extends Component {
                         <UndrawMomentToRemember primaryColor='#20504f' skinColor="#fbccbf" hairColor="#b29a5e"/>
                     </div>
                     <div className="w-3/4 p-4 pt-0 pb-0 border-l border-grey-light">
-                        <h1 className="content-h2">Hello World!</h1>
+                        <h1 className="content-h2">hello_world!</h1>
                         <p className="content-text">
                         My name is Felix and I am currently pursuing the Craft Academy Bootcamp - to improve my programming skillz! 
                         This is where I display development projects I worked on - what languages, frameworks and tools I practice - and soon also other curricular activities.</p>
