@@ -17,22 +17,26 @@ const Contact = () => {
         </div>
 
         <div className="w-1/2">
-            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-            <p className="hidden">
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
-            <p>
-            <label>Your Name: <input className="email-input focus" type="text" name="name" /></label>   
-            </p>
-            <p className="pt-3">
-            <label className="text-semibold">Email: <input className="email-input focus" type="text" name="email" /></label>
-            </p>
-            <p className="pt-3">
-            <label>Message: <textarea className="message-input focus" name="message"></textarea></label>
-            </p>
-            <p className="pt-5">
-            <button className="email-button hover" type="submit">Send</button>
-            </p>
+            <form name="contact" method="POST">
+                    <input type="hidden" name="form-name" value="contact" />
+                <p className="hidden"> <label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+                
+                <p>
+                <label>Your Name: <input className="email-input focus" type="text" name="name" /></label>
+                </p>
+                
+                <p className="pt-3">
+                <label className="text-semibold">Email: <input className="email-input focus" type="text" name="email" /></label>
+                </p>
+                
+                <p className="pt-3">
+                <label>Message: <textarea className="message-input focus" name="message"></textarea></label>
+                </p>
+
+                <p className="pt-5">
+                <button className="email-button hover" type="submit">Send</button>
+                </p>
+
             </form>
         </div>
     </div>

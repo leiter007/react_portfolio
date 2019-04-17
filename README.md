@@ -29,7 +29,7 @@ The challenge was to build an individual portfolio site to showcase the projects
 
 ## Deployed site
 ______
-Check out the deployed site [here](xxx).
+Check out the deployed site [here](https://felix-react-portfolio.netlify.com/).
 
 ## Built with
 ______
