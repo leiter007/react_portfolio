@@ -36,16 +36,18 @@ class Skills extends Component {
         return (
             <div className="landingpage-wrapper">
                 <div className="landingpage-header">
-                    <div className="w-1/4 m-3 p-2 bg-grey-lightest border border-grey-light">
+                    <div className="w-1/4 m-3 p-2 bg-grey-lightest border-4 border-grey-light">
                         <UndrawMomentToRemember primaryColor='#20504f' skinColor="#fbccbf" hairColor="#b29a5e"/>
                     </div>
                     <div className="w-3/4 p-4 pt-0 pb-0 border-l border-grey-light">
                         <h1 className="content-h2">Hello World!</h1>
                         <p className="content-text">
                         My name is Felix and I am currently pursuing the Craft Academy Bootcamp - to improve my programming skillz! 
-                        This is where I display my programming projects, and soon also other curricular activities.</p>
+                        This is where I display development projects I worked on - what languages, frameworks and tools I practice - and soon also other curricular activities.</p>
                         <p className="content-text pt-4">
-                        For checkin out my previous projects, please click on the "My Projects" link in the header!</p>
+                        For checkin out my previous projects - please click on the "My Projects" link in the header!</p>
+                        <p className="content-text pt-1">
+                        For checkin out languages, frameworks and libraries I prcatice - please scroll a little further down!"</p>
                     </div>
                 </div>
 

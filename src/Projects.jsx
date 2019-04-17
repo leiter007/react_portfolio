@@ -28,7 +28,7 @@ class Projects extends Component {
         if (projects.length >0) {
             projectsList = projects.map(project => {
                 return (
-                    <div key={project.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <div key={project.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
                     <ProjectCard project={project} />
                     </div>
                 )
@@ -37,19 +37,20 @@ class Projects extends Component {
         return (
             <div className="content-wrapper">
                 <div className="content-header">
-                    <div className="w-1/6" >
+                    <div className="image-header-wrapper" >
                         <UndrawCreate primaryColor='#20504f' height='100px'/>
                     </div>
-                    <div className="w-5/6 p-4 pt-0">
+                    <div className="header-wrapper">
                         <h1 className="content-h1">My Projects</h1>
-                        <p>This is a selection of the projects I have been working on. For more information, please click on the GitHub link in each card.</p>
-                        <p>And if you want to see the final UI result - click on the link to the deployed site!</p>
+                        <p>This is a selection of the projects I have been working on. For more information, please click on the GitHub link in each card. And if you want to see the final UI result - click on the link to the deployed site!</p>
                         <p className="pt-4">Note: Some projects are not front-end applications, so for them you will be directed to the GitHub page.</p>
                     </div>
                 </div>
-
+                
+                <div className="card-wrapper">
                 <div className="flex flex-wrap -mx-1 lg:mx-4">
                     {projectsList}
+                </div>
                 </div>
             </div>
         )

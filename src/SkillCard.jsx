@@ -3,12 +3,12 @@ import React from "react"
 const SkillCard = (props) => {
     let skill = props.skill
     return (
-        <div key={skill.id} className="overflow-hidden border md:w-15">
+        <div key={skill.id} className="overflow-hidden border md:w-15 bg-white">
             <div className="p-1 h-10 bg-grey-lighter border-b-2 border-grey">
             <img src={skill.image} className="h-full"/>
             </div>
             <div className="px-3 py-3 border-t border-grey-light" style={{ minHeight: '120px' }}>
-                <div className="card-headline">{skill.name}</div>
+                <div className="skill-card-headline">{skill.name}</div>
                 <p className="card-text">
                     {skill.description}
                 </p>

@@ -11,7 +11,7 @@
         "name": "Ruby",
         "link": "https://www.ruby-lang.org/en/",
         "image": "./src/data/Ruby.png",
-        "description": "A dynamic, open source programming language with a focus on simplicity and productivity"
+        "description": "Dynamic open source language, with focus on simplicity and productivity"
     },
     {
         "id": 3,

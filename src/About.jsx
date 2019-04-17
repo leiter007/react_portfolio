@@ -3,16 +3,18 @@ import { UndrawDesigner } from "react-undraw-illustrations";
 
 const About = () => {
     return (
+    <div className="content-wrapper">
         <div className="content-header">
-                <div className="w-1/6">
+                <div className="image-header-wrapper" >
                 <UndrawDesigner primaryColor='#20504f' skinColor="#f3d3cd" hairColor="#b29a5e" height='100px'/>
                 </div>
             
-                <div className="w-5/6 p-4">
+                <div className="header-wrapper">
                 <h1 className="content-h1">About Me</h1>
                 <p className="content-text">Soon I will add more information about me here - such as my past education -and work experience.</p>
                 <p className="content-text">Stay tuned!</p></div>
             </div>
+        </div>
     )
 }
 

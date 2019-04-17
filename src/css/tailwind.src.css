@@ -14,7 +14,7 @@
 
 /** Header **/
 .header {
-    @apply flex items-center justify-between flex-wrap bg-teal-darkest p-6;
+    @apply flex items-center justify-between flex-wrap bg-teal-darkest p-6 pl-10;
 }
 .header-title {
     @apply text-white text-3xl;
@@ -41,7 +41,7 @@
     @apply text-3xl font-semibold text-grey-darkest pb-3;
 }
 .content-h2 {
-    @apply text-5xl font-semibold text-grey-darkest pb-5 pt-2;
+    @apply text-5xl font-semibold text-teal-darkest pb-5 pt-2;
 }
 .content-h3 {
     @apply text-xl font-normal text-grey-dark;
@@ -49,6 +49,15 @@
 .content-text {
     @apply text-grey-dark;
 }
+.image-header-wrapper {
+    @apply w-1/6 p-2 ml-3 bg-grey-lightest border border-grey-light;
+}
+.header-wrapper {
+    @apply w-5/6 ml-2 p-6 pt-0 border-l border-grey-light;
+}
+
+
+
 
 /** Links **/
 .main-link {
@@ -78,8 +87,12 @@
 .card-button:hover {
     @apply bg-teal-darkest;
 }
-.card-headline {
+.project-card-headline {
     @apply font-bold text-xl mb-2 text-grey-darkest;
+}
+
+.skill-card-headline {
+    @apply font-bold text-lg mb-2 text-grey-darkest;
 }
 .card-text {
     @apply text-xs;
