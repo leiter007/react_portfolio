@@ -25,10 +25,15 @@
 
 
 /** Content section **/
+.landingpage-wrapper {
+    @apply px-6 pt-0 flex-1 overflow-y-scroll;
+}
+.landingpage-header {
+    @apply flex mb-10 border-b border-grey-light;
+}
 .content-wrapper {
     @apply px-6 pt-4 flex-1 overflow-y-scroll;
 }
-
 .content-header {
     @apply flex mb-10 pb-2 border-b border-grey-light;
 }

@@ -12,5 +12,5 @@
         "link": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
         "image": "./src/data/Library.png",
         "description": "Challenge: Create the back-end system for a Library in Ruby programming language - during one weekend"
-    },
+    }
 ]
