@@ -28,6 +28,10 @@
 .content-wrapper {
     @apply px-6 pt-4 flex-1 overflow-y-scroll;
 }
+
+.content-header {
+    @apply flex mb-10 pb-3 border-b border-grey-light;
+}
 .content-h1 {
     @apply text-3xl font-semibold text-grey-darkest pb-3;
 }
@@ -81,6 +85,18 @@
 }
 .email-input:focus {
     @apply outline-none bg-white border-grey;
+}
+.message-input {
+    @apply h-24 text-xs appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-2 px-4 leading-tight 
+}
+.message-input:focus {
+    @apply outline-none bg-white border-grey;
+}
+.email-button {
+    @apply bg-teal-darker text-white text-base py-1 px-2 rounded-full;
+}
+.email-button:hover {
+    @apply bg-teal-darkest;
 }
 
 
