@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <button className="scroll-button" onClick={()=>scrollToTop()}>
+                <button className="scroll-button" onClick={scrollToTop}>
                 Scroll to top
                 </button>
             </div>

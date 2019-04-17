@@ -10,6 +10,7 @@ const Header = () => {
             <ul className="ul-link">
                 <li className="header-li"><NavLink className="nav-link hover" activeStyle={{fontWeight: "bold"}} to='/about'>About Me</NavLink></li>
                 <li className="header-li"><NavLink className="nav-link hover" activeStyle={{fontWeight: "bold"}} to='/projects'>My Projects</NavLink></li>
+                <li className="header-li"><NavLink className="nav-link hover" activeStyle={{fontWeight: "bold"}} to='/contact'>Contact</NavLink></li>
             </ul>
         </nav>
     )

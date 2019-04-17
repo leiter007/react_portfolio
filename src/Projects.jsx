@@ -35,16 +35,17 @@ class Projects extends Component {
             })
         }
         return (
-            <div id="main-content" className="content-wrapper">
+            <div className="content-wrapper">
                 <div className="flex mb-10 border-b border-grey-light">
                     <div className="w-1/6 -mr-2 p-3" >
                         <UndrawCreate primaryColor='#20504f' height='70px'/>
                     </div>
-                    <div className="w-5/6 p-3">
+                    <div className="w-5/6 p-4">
                         <h1 className="content-h1">My Projects</h1>
                         <p>This is a selection of the projects I have been working on. For more information, please click on the GitHub link in each card.</p>
                         <p>And if you want to see the final UI result - click on the link to the deployed site!</p>
-                    </div>    
+                        <p className="pt-4">Note: Some projects are not front-end applications, so for them you will be directed to the GitHub page.</p>
+                    </div>
                 </div>
 
                 <div className="flex flex-wrap -mx-1 lg:mx-4">

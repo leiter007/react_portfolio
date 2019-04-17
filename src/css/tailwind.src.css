@@ -74,6 +74,16 @@
 }
 
 
+/** Contact section **/
+
+.email-input {
+    @apply self-center appearance-none block w-full h-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight
+}
+.email-input:focus {
+    @apply outline-none bg-white border-grey;
+}
+
+
 
 
 /** Footer **/
