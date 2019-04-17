@@ -30,7 +30,7 @@
 }
 
 .content-header {
-    @apply flex mb-10 pb-3 border-b border-grey-light;
+    @apply flex mb-10 pb-2 border-b border-grey-light;
 }
 .content-h1 {
     @apply text-3xl font-semibold text-grey-darkest pb-3;

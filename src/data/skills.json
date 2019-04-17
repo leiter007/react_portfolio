@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "image": "./src/data/ATM.png",
+        "link": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "description": "Challenge: Create the back-end system for an ATM machine in Ruby programming language - in one week"
+    },
+    {
+        "id": 2,
+        "name": "Ruby",
+        "link": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "image": "./src/data/Library.png",
+        "description": "Challenge: Create the back-end system for a Library in Ruby programming language - during one weekend"
+    },
+]

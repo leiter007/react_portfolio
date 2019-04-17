@@ -37,10 +37,10 @@ class Projects extends Component {
         return (
             <div className="content-wrapper">
                 <div className="content-header">
-                    <div className="w-1/6 -mr-2 p-3" >
-                        <UndrawCreate primaryColor='#20504f' height='70px'/>
+                    <div className="w-1/6" >
+                        <UndrawCreate primaryColor='#20504f' height='100px'/>
                     </div>
-                    <div className="w-5/6 p-4">
+                    <div className="w-5/6 p-4 pt-0">
                         <h1 className="content-h1">My Projects</h1>
                         <p>This is a selection of the projects I have been working on. For more information, please click on the GitHub link in each card.</p>
                         <p>And if you want to see the final UI result - click on the link to the deployed site!</p>

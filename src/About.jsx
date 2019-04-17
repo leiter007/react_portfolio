@@ -4,8 +4,8 @@ import { UndrawDesigner } from "react-undraw-illustrations";
 const About = () => {
     return (
         <div className="content-header">
-                <div className="w-1/6 -mr-2 p-3">
-                <UndrawDesigner primaryColor='#20504f' skinColor="#f3d3cd" hairColor="#b29a5e" height='70px'/>
+                <div className="w-1/6">
+                <UndrawDesigner primaryColor='#20504f' skinColor="#f3d3cd" hairColor="#b29a5e" height='100px'/>
                 </div>
             
                 <div className="w-5/6 p-4">
