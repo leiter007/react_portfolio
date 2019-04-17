@@ -27,7 +27,7 @@ class Skills extends Component {
         if (skills.length >0) {
             skillsList = skills.map(skill => {
                 return (
-                    <div key={skill.id} className="min-h-500 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/5">
+                    <div key={skill.id} className="min-h-900 my-1 px-1 w-full md:w-1/3 lg:my-4 lg:px-4 lg:w-1/6">
                     <SkillCard skill={skill} />
                     </div>
                 )
@@ -39,7 +39,7 @@ class Skills extends Component {
                     <div className="w-1/4 m-3 p-2 bg-grey-lightest border border-grey-light">
                         <UndrawMomentToRemember primaryColor='#20504f' skinColor="#fbccbf" hairColor="#b29a5e"/>
                     </div>
-                    <div className="w-3/4 p-4 pt-0 pb-0 border-l border-grer-light">
+                    <div className="w-3/4 p-4 pt-0 pb-0 border-l border-grey-light">
                         <h1 className="content-h2">Hello World!</h1>
                         <p className="content-text">
                         My name is Felix and I am currently pursuing the Craft Academy Bootcamp - to improve my programming skillz! 
@@ -49,8 +49,10 @@ class Skills extends Component {
                     </div>
                 </div>
 
+                <div className="card-wrapper">
                 <div className="flex flex-wrap -mx-1 lg:mx-4">
                         {skillsList}
+                </div>
                 </div>
             </div>
             

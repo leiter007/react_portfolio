@@ -68,7 +68,10 @@
 }
 
 
-/** ProjectCards **/
+/** Cards **/
+.card-wrapper {
+    @apply p-2 m-3 flex-1 overflow-y-scroll bg-grey-lightest border border-grey-light;
+}
 .card-button {
     @apply bg-teal-darker text-white text-xs py-1 px-2 rounded-full;
 }
@@ -79,7 +82,7 @@
     @apply font-bold text-xl mb-2 text-grey-darkest;
 }
 .card-text {
-    @apply text-sm;
+    @apply text-xs;
 }
 
 
