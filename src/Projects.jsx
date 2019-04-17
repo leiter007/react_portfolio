@@ -35,7 +35,7 @@ class Projects extends Component {
             })
         }
         return (
-            <div className="content-wrapper">
+            <div id="main-content" className="content-wrapper">
                 <div className="flex mb-10 border-b border-grey-light">
                     <div className="w-1/6 -mr-2 p-3" >
                         <UndrawCreate primaryColor='#20504f' height='70px'/>

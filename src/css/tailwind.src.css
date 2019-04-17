@@ -78,8 +78,11 @@
 
 /** Footer **/
 .footer-wrapper {
-    @apply border-t px-8 py-4 bg-grey-lighter;
+    @apply flex flex-wrap justify-between border-t px-8 py-4 bg-grey-lighter;
 }
 .footer-content {
     @apply flex justify-center text-grey-dark;
+}
+.scroll-button {
+    @apply p-2 rounded-full bg-grey-lightest border border-grey-light flex justify-center text-grey-dark font-hairline text-xs;
 }
