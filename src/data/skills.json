@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "JavaScript®",
-        "image": "./src/data/Javascript.png",
+        "image": "./src/data/images/Javascript.png",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "description": "Lightweight interpreted programming language with first-class functions"
     },
@@ -10,49 +10,49 @@
         "id": 2,
         "name": "Ruby",
         "link": "https://www.ruby-lang.org/en/",
-        "image": "./src/data/Ruby.png",
+        "image": "./src/data/images/Ruby.png",
         "description": "Dynamic open source language, with focus on simplicity and productivity"
     },
     {
         "id": 3,
         "name": "HTML",
         "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "image": "./src/data/HTML.png",
+        "image": "./src/data/images/HTML.png",
         "description": "Defines the meaning and structure of web content"
     },
     {
         "id": 4,
         "name": "CSS",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        "image": "./src/data/CSS.png",
+        "image": "./src/data/images/CSS.png",
         "description": "Core stylesheet language of the web"
     },
     {
         "id": 5,
         "name": "React",
         "link": "https://reactjs.org/",
-        "image": "./src/data/React.png",
+        "image": "./src/data/images/React.png",
         "description": "A JavaScript library for building user interfaces"
     },
     {
         "id": 6,
         "name": "RSpec",
         "link": "http://rspec.info/",
-        "image": "./src/data/RSpec.png",
+        "image": "./src/data/images/RSpec.png",
         "description": "Behaviour driven development for Ruby"
     },
     {
         "id": 7,
         "name": "Tailwind",
         "link": "https://tailwindcss.com/docs/what-is-tailwind/",
-        "image": "./src/data/Tailwind.png",
+        "image": "./src/data/images/Tailwind.png",
         "description": "A utility-first CSS framework for rapidly building custom user interfaces"
     },
     {
         "id": 8,
         "name": "Cucumber",
         "link": "https://cucumber.io/",
-        "image": "./src/data/cucumber.png",
+        "image": "./src/data/images/cucumber.png",
         "description": "Tools & techniques that elevate teams to greatness"
     }
 ]

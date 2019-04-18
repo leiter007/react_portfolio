@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "ATM Challenge",
-        "image": "./src/data/ATM.png",
+        "image": "./src/data/images/ATM.png",
         "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
         "description": "Challenge: Create the back-end system for an ATM machine in Ruby programming language - in one week",
         "GitHub": "https://github.com/leiter007/atm_challenge",
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Library Challenge",
         "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
-        "image": "./src/data/Library.png",
+        "image": "./src/data/images/Library.png",
         "description": "Challenge: Create the back-end system for a Library in Ruby programming language - during one weekend",
         "GitHub": "https://github.com/leiter007/library-challenge",
         "deployed":""
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Address Book",
         "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
-        "image": "./src/data/Address.png",
+        "image": "./src/data/images/Address.png",
         "description": "Challenge: Create an address book  - with both back -and front-end functionality - in Javascript programming language - in one week",
         "GitHub": "https://github.com/leiter007/address-book",
         "deployed": "https://leiter007.github.io/address-book/"
@@ -31,7 +31,7 @@
         "id": 4,
         "name": "FizzBuzz JS Challenge",
         "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
-        "image": "./src/data/calculator.png",
+        "image": "./src/data/images/calculator.png",
         "description": "Challenge: Create a FizzBuzz calculator in Javascript programming language - during one weekend",
         "GitHub": "https://github.com/leiter007/fizzbuzz_js_felix",
         "deployed": "https://leiter007.github.io/fizzbuzz_js_felix/"
