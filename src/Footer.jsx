@@ -1,9 +1,9 @@
 import React from "react"
 
 const scrollToTop = () => {
-let mainContent = document.getElementById("main-content")
-mainContent.scrollTop = 0
-document.documentElement.scrollTop = 0
+    let mainContent = document.getElementById("main-content")
+    mainContent.scrollTop = 0
+    document.documentElement.scrollTop = 0
 }
 
 const Footer = () => {
