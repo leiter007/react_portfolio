@@ -6,7 +6,7 @@
         "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
         "description": "Challenge: Create the back-end system for an ATM machine in Ruby programming language - in one week",
         "GitHub": "https://github.com/leiter007/atm_challenge",
-        "deployed":"https://github.com/leiter007/atm_challenge"
+        "deployed":""
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "image": "./src/data/Library.png",
         "description": "Challenge: Create the back-end system for a Library in Ruby programming language - during one weekend",
         "GitHub": "https://github.com/leiter007/library-challenge",
-        "deployed":"https://github.com/leiter007/library-challenge"
+        "deployed":""
     },
     {
         "id": 3,
