@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
 
         <div className="w-1/2">
-            <form action="https://felix-react-portfolio.netlify.com/" name="contact" method="POST">
+            <form name="contact" method="POST">
                     <input type="hidden" name="form-name" value="contact" />
                 <p className="hidden"> <label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
                 
