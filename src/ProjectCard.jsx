@@ -2,6 +2,7 @@ import React from "react"
 
 const ProjectCard = (props) => {
     let project = props.project
+
     return (
         <div key={project.id} className="overflow-hidden border bg-white">
             <img src={project.image} className="block h-auto w-full" style={{ height: '150px', objectFit: 'cover' }} />
