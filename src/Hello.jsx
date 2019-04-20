@@ -43,9 +43,11 @@ class Skills extends Component {
                         <h1 className="content-h2">hello_world!</h1>
                         <p className="content-text">
                         My name is Felix and I am currently pursuing the Craft Academy Bootcamp - to improve my programming skillz! 
-                        This is where I display development projects I worked on - what languages, frameworks and tools I practice - and soon also other curricular activities.</p>
-                        <p className="content-text pt-4">
-                        For checkin out my previous projects - please click on the "My Projects" link in the header!</p>
+                        This is where I display development projects I worked on - what languages, frameworks and tools I practice - and also previous work experience and education.</p>
+                        <p className="content-text pt-6">
+                        For checkin out my programming projects - please click on the "My Projects" link in the header!</p>
+                        <p className="content-text pt-1">
+                        For checkin out my previous work experience and education - please click on the "About Me" link in the header!"</p>
                         <p className="content-text pt-1">
                         For checkin out languages, frameworks and libraries I prcatice - please scroll a little further down!"</p>
                     </div>
