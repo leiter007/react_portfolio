@@ -3,11 +3,12 @@ import React from "react"
 const EduCard = (props) => {
     let edu = props.edu
     return (
-        <div key={edu.id} className="overflow-hidden border md:w-15 bg-white">
-            <div className="p-1 h-10 bg-grey-lighter border-b-2 border-grey">
-            <img src={edu.image} className="h-full"/>
-            </div>
-            <div className="px-3 py-3 border-t border-grey-light" style={{ minHeight: '120px' }}>
+        <div key={edu.id} className="overflow-hidden border md:w-20 bg-white">
+                <div className="flex p-1 h-10 bg-grey-lighter border-b-2 border-grey">
+                    <img src={edu.image} className="h-full"/>
+                    <div className="edu-card-time">{edu.time}</div>
+                </div>
+            <div className="edu-card-content" style={{ minHeight: '120px' }}>
                 <div className="edu-card-headline">{edu.name}</div>
                 <p className="card-text">
                     {edu.description}
