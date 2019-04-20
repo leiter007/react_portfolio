@@ -98,6 +98,11 @@
     @apply text-xs;
 }
 
+.edu-card-headline {
+    @apply font-bold text-base mb-2 text-grey-darkest;
+}
+
+
 
 /** Contact section **/
 
