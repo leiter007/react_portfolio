@@ -94,9 +94,25 @@
 .skill-card-headline {
     @apply font-bold text-lg mb-2 text-grey-darkest;
 }
+.skill-card-content{
+    @apply px-3 py-3 border-t border-grey-light;
+}
 .card-text {
     @apply text-xs;
 }
+
+.edu-card-headline {
+    @apply font-bold text-sm mb-2 text-grey-darkest;
+}
+.edu-card-time{
+    @apply pl-3 self-center text-xs;
+}
+.edu-card-content{
+    @apply px-2 py-2 border-t border-grey-light;
+}
+
+
+
 
 
 /** Contact section **/

@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "H&M",
+        "time": "Oct 2016 - ongoing",
+        "image": "./src/data/images/H&M.jpeg",
+        "link": "https://www.hm.com",
+        "description": "Business Development - Project Manager"
+
+    },
+    {
+        "id": 2,
+        "name": "H&M",
+        "time": "Apr 2014 - Oct 2016",
+        "image": "./src/data/images/H&M.jpeg",
+        "link": "https://www.hm.com",
+        "description": "Global Buying Office - Central Business Controller"
+
+    },
+    {
+        "id": 3,
+        "name": "H&M",
+        "time": "Apr 2012 - Apr 2014",
+        "image": "./src/data/images/H&M.jpeg",
+        "link": "https://www.hm.com",
+        "description": "South Korea Sales Office - Head of Merchandising"
+
+    },
+    {
+        "id": 4,
+        "name": "H&M",
+        "time": "Aug 2009 - ongoing",
+        "image": "./src/data/images/H&M.jpeg",
+        "link": "https://www.hm.com",
+        "description": "Global Buying Office - Section Business Controller"
+
+    },
+    {
+        "id": 5,
+        "name": "Deutsche Bank",
+        "time": "Jun 2008 - Aug 2008",
+        "link": "https://www.db.com",
+        "image": "./src/data/images/DB.png",
+        "description": "Summer Analyst Program - Corporate Finance: Media division"
+    }
+    {
+        "id": 6,
+        "name": "ODIN Fund Management",
+        "time": "Aug 2007 - Jun 2008",
+        "link": "https://odinfundmanagement.com/home/",
+        "image": "./src/data/images/ODIN.png",
+        "description": "Advisor - Customer Service"
+    }
+]

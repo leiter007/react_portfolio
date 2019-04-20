@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Stockholm School of Economics",
+        "time": "Aug 2005 - Jun 2009",
+        "image": "./src/data/images/SSE.jpg",
+        "link": "https://www.hhs.se",
+        "description": "M.Sc - Accounting and Financial Management"
+
+    },
+    {
+        "id": 2,
+        "name": "Östra Reals Gymnasium",
+        "time": "Aug 2001 - Jun 2004",
+        "link": "https://ostrarealsgymnasium.stockholm.se/",
+        "image": "./src/data/images/Highschool.png",
+        "description": "Senior High School"
+    }
+]
