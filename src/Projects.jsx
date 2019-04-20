@@ -43,7 +43,6 @@ class Projects extends Component {
                     <div className="header-wrapper">
                         <h1 className="content-h1">My Projects</h1>
                         <p>This is a selection of the projects I have been working on. For more information, please click on the GitHub link in each card. And if you want to see the final UI result - click on the link to the deployed site!</p>
-                        <p className="pt-4">Note: Some projects are not front-end applications, so for them you will be directed to the GitHub page.</p>
                     </div>
                 </div>
                 

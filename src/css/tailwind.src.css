@@ -50,10 +50,13 @@
     @apply text-grey-dark;
 }
 .image-header-wrapper {
-    @apply w-1/6 p-2 ml-3 bg-grey-lightest border border-grey-light;
+    @apply w-1/6 p-2 pt-5 ml-3 bg-grey-lightest border border-grey-light content-center;
 }
 .header-wrapper {
     @apply w-5/6 ml-2 p-6 pt-0 border-l border-grey-light;
+}
+.about-titles {
+    @apply font-medium;
 }
 
 
@@ -78,6 +81,9 @@
 
 
 /** Cards **/
+.card-parent-wrapper {
+    @apply pl-2 pb-2 ml-3 mr-3 flex-1 overflow-y-scroll font-light text-2xl border-b-2 border-grey;
+}
 .card-wrapper {
     @apply p-2 m-3 flex-1 overflow-y-scroll bg-grey-lightest border border-grey-light;
 }
