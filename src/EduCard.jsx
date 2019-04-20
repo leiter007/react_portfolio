@@ -5,7 +5,7 @@ const EduCard = (props) => {
     return (
         <div key={edu.id} className="overflow-hidden border md:w-20 bg-white">
                 <div className="flex p-1 h-10 bg-grey-lighter border-b-2 border-grey">
-                    <img src={edu.image} className="h-full"/>
+                    <img src={edu.image} className="h-full lg:h-6 self-center"/>
                     <div className="edu-card-time">{edu.time}</div>
                 </div>
             <div className="edu-card-content" style={{ minHeight: '120px' }}>
